@@ -1,0 +1,51 @@
+﻿@media screen and (max-width: 800px){
+	.instagram-widget{
+		padding: 0px;
+		gap: 10px;
+	}
+
+	.instagram-item {
+		min-width: 100px;
+		max-height: 100px;
+		max-width: 100px;
+		min-height: 100px
+	}
+
+	.instagram-item a i.fab.fa-instagram {
+		opacity: 1;
+		transform: translate(-50%, -50%) scale(0.5);
+	}
+
+	.dark-container, .medium-container, .light-container {
+		padding: 10px 20px !important
+	}
+
+	.banner{
+		max-height: 300px;
+	}
+
+	.banner-text {
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.banner-text h1{
+		font-size: 20px;
+	}
+
+	.banner-text h2{
+		font-size: 16px;
+	}
+
+	header .cta, header .navigation{
+		display: none;
+	}
+
+	.quick-links a i{
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 330px) {
+}
